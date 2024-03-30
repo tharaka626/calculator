@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "47e02816-1271-4d15-9bfb-e91dbaa225f2",
+		"name": "Calculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "16008436",
+		"_collection_link": "https://www.postman.com/universal-resonance-834935/workspace/test/collection/16008436-47e02816-1271-4d15-9bfb-e91dbaa225f2?action=share&source=collection_link&creator=16008436"
+	},
+	"item": [
+		{
+			"name": "add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"operand_1\": 2,\n    \"operand_2\": 2,\n    \"operator\": \"add\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/calculators"
+			},
+			"response": []
+		},
+		{
+			"name": "subtract",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"operand_1\": 4,\n    \"operand_2\": 2,\n    \"operator\": \"subtract\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/calculators"
+			},
+			"response": []
+		},
+		{
+			"name": "multiply",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"operand_1\": 4,\n    \"operand_2\": 2,\n    \"operator\": \"multiply\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/calculators"
+			},
+			"response": []
+		},
+		{
+			"name": "divide",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"operand_1\": 500,\n    \"operand_2\": 2,\n    \"operator\": \"multiply\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/calculators"
+			},
+			"response": []
+		},
+		{
+			"name": "percentage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"operand_1\": 500,\n    \"operand_2\": 2,\n    \"operator\": \"multiply\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/calculators"
+			},
+			"response": []
+		}
+	]
+}
