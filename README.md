@@ -1,21 +1,21 @@
-This is a Calculator App. While the backend part work as API, frontend part send JSON request to get calculator results.
+This is a Calculator App. While the backend works as an API, the frontend sends JSON requests to obtain calculator results
 
 # How to Setup
 
 ## How to Setup - backend
 
-This is a backend part of the calculator. Please follow instructions to run the calculator backend.
+This is a backend part of the calculator. Please follow the instructions to run the calculator backend.
 
 ### Clone `calculator-backend` from the GIT
- - After cloned the folder, open the folder path in terminal
+ - After cloning the folder, open the folder path in the terminal
 
 ### Install the composer
 ```sh
 composer install
 ```
 
-### Setup enviornment vairables
-- Setup enviornment variables in `.env` file (Database,App_URL)
+### Setup environment variables
+- Setup environment variables in the `.env` file (Database, App_URL)
 
 ### Migrate the database tables
 ```sh
@@ -32,24 +32,24 @@ php artisan key:generate
 php artisan serve
 ```
 
-### Import Api's URL from postman and send the `POST` request
-- Import `Calculator.postman_collection.json` file in the Postman App
+### Import Api's URL from Postman and send the `POST` request
+- Import the `Calculator.postman_collection.json` file in the Postman App
 - Send the `POST` requests as a JSON request
 
-## How to Setup - Fontend
+## How to Setup - Frontend
 
-This is a frontend part of the calculator. Please follow instructions to run the calculator frontend.
+This is a front-end part of the calculator. Please follow the instructions to run the calculator frontend.
 
 ### Clone `calculator-frontend` from the GIT
- - After cloned the folder, open the folder path in terminal
+ - After cloning the folder, open the folder path in the terminal
 
 ### Install the NPM
 ```sh
 npm install
 ```
 
-### Setup enviornment vairables
-- Setup enviornment variables in `.env` file (main api url of the backend)
+### Setup environment variables
+- Setup environment variables in the `.env` file (main API URL of the backend)
 
 ### Compile and Hot-Reload for Development
 
